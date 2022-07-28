@@ -30,9 +30,6 @@ export default function App() {
     //   anchorElement.href = canvas.toDataURL();
     //   anchorElement.click();
     // });
-    html2canvas(input).then((canvas) => {
-      document.body.appendChild(canvas);
-    });
   };
 
   const addImage = (e) => {
